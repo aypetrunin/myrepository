@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 
-# from ..models.chat_operations import ChatOperationsModel
+from ..models.chat_operations import ChatOperations
 
 
 router = APIRouter(
