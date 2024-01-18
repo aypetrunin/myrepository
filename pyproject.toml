@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "fastapi-template"
+name = "fastapi-train-bot"
 version = "0.1.0"
 description = ""
 authors = ["aypetrunin <a.y.petrunin@gmail.com>"]

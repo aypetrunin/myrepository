@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 
-from ..models.chat_operations import ChatOperations
+from ..models.chat_operations import ChatOperationsModel
 
 
 router = APIRouter(
@@ -10,7 +10,7 @@ router = APIRouter(
 
 
 @router.get("/answer")
-def get_answer(question: str):
+def get_answer(question: ChatOperationsModel):
     return question
 
 
